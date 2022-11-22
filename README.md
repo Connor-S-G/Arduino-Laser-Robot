@@ -8,7 +8,16 @@ This robot was built using an Arduino Uno. It consists of the circuit board, 2 s
 
 # Usage Examples
 ## Mouse Control
+The laser movement can be controlled using the computer mouse.
 
 https://user-images.githubusercontent.com/56166849/203433298-97d2e911-71e5-479f-8a80-670006543c04.MOV
+## Laser Chaser for Cats
+Random laser movement that cats can change, sounds can also be implemented.
 
+https://user-images.githubusercontent.com/56166849/203439706-89fbbf7e-4c67-4266-80b1-a6327ca941e4.MOV
+
+# Gallery
+
+![unnamed](https://user-images.githubusercontent.com/56166849/203440041-d250c622-9347-4267-97c9-9211c03ecd07.jpg)
+![unnamed (1)](https://user-images.githubusercontent.com/56166849/203440116-c79f4e5e-1359-4558-9907-05ecc372c411.jpg)
 
