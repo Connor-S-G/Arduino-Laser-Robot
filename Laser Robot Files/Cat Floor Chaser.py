@@ -1,8 +1,13 @@
 import struct
 import serial
 import time
+import winsound
 from ctypes import windll, Structure, c_long, byref
 import random
+
+global lastXmsg
+global lastYmsg
+
 Valueerror = True
 while Valueerror == True:    
     try:
@@ -13,12 +18,11 @@ while Valueerror == True:
         
     except ValueError:
         print("OOF")
+        
 ser = serial.Serial('COM3', 9600, writeTimeout = 0)
-global lastXmsg
-global lastYmsg
 xoy = 200
 yoy = 100
-import winsound
+
 start = int(time.perf_counter())
 lastone = 0
 fname= "C:\\Users\\Connor G\\Documents\\Laser Project\\sentrymode.wav"
@@ -30,8 +34,8 @@ sound6 = "C:\\Users\\Connor G\\Documents\\Laser Project\\I see you.wav"
 sound7 = "C:\\Users\\Connor G\\Documents\\Laser Project\\stillthere.wav"
 sound8 = "C:\\Users\\Connor G\\Documents\\Laser Project\\nohate.wav"
 sound = [fname, sound2, sound3, sound4, sound5, sound6, sound7, sound8]
+
 if input("Press enter to start") == "":
-    
     winsound.PlaySound(fname, winsound.SND_FILENAME)
     while True:
         whattoplay = random.randint(1,7)
