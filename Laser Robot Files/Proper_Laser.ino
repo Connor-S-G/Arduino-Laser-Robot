@@ -1,13 +1,13 @@
-
 #include <Servo.h>
+
 Servo x;
 Servo y;
 int xnew = 90;
 int ynew = 90;
 int xpos = 90;
 int ypos = 90;
+
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   x.attach(3);
   y.attach(5);
@@ -16,7 +16,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   
     while (Serial.available() > 0)
   {
