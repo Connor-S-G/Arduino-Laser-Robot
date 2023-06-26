@@ -12,7 +12,7 @@ The laser movement can be controlled using the computer mouse.
 
 https://user-images.githubusercontent.com/56166849/203433298-97d2e911-71e5-479f-8a80-670006543c04.MOV
 ## Laser Chaser for Cats
-Random laser movement that cats can change, sounds can also be implemented.
+Random laser movement that cats can chase, sounds can also be implemented. The area where the laser shines can be restricted (to a floor/wall etc...)
 
 https://user-images.githubusercontent.com/56166849/203439706-89fbbf7e-4c67-4266-80b1-a6327ca941e4.MOV
 
