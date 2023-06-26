@@ -25,14 +25,14 @@ yoy = 100
 
 start = int(time.perf_counter())
 lastone = 0
-fname= "C:\\Users\\Connor G\\Documents\\Laser Project\\sentrymode.wav"
-sound2 = "C:\\Users\\Connor G\\Documents\\Laser Project\\Target Acquired.wav"
-sound3 = "C:\\Users\\Connor G\\Documents\\Laser Project\\Hello.wav"
-sound4 = "C:\\Users\\Connor G\\Documents\\Laser Project\\gatcha.wav"
-sound5 = "C:\\Users\\Connor G\\Documents\\Laser Project\\thereyouare.wav"
-sound6 = "C:\\Users\\Connor G\\Documents\\Laser Project\\I see you.wav"
-sound7 = "C:\\Users\\Connor G\\Documents\\Laser Project\\stillthere.wav"
-sound8 = "C:\\Users\\Connor G\\Documents\\Laser Project\\nohate.wav"
+fname= "[SOUND FILEPATH]"
+sound2 = "[SOUND FILEPATH]"
+sound3 = "[SOUND FILEPATH]"
+sound4 = "[SOUND FILEPATH]"
+sound5 = "[SOUND FILEPATH]"
+sound6 = "[SOUND FILEPATH]"
+sound7 = "[SOUND FILEPATH]"
+sound8 = "[SOUND FILEPATH]"
 sound = [fname, sound2, sound3, sound4, sound5, sound6, sound7, sound8]
 
 if input("Press enter to start") == "":
